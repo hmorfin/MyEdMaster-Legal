@@ -1,0 +1,28 @@
+services:
+  backend:
+    environment:
+      DJANGO_DEBUG: "false"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+
+  celery:
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 256m
+
+  ai:
+    environment:
+      LOG_LEVEL: "info"
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+
+  frontend:
+    restart: always

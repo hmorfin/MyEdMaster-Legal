@@ -1,0 +1,8 @@
+# PII entity types to anonymize before sending to LLM
+# Full list: https://microsoft.github.io/presidio/supported_entities/
+PERSON
+EMAIL_ADDRESS
+PHONE_NUMBER
+US_SSN
+US_DRIVER_LICENSE
+CREDIT_CARD

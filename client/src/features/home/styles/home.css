@@ -1,0 +1,66 @@
+.home-theme {
+  --home-bg: #f3f3f3;
+  --home-fg: #060606;
+  --home-muted: #575757;
+  --home-card: #ececec;
+  --home-nav-bg: rgba(255, 255, 255, 0.8);
+  --home-nav-border: rgba(0, 0, 0, 0.1);
+  --home-chip-bg: #ffffff;
+  --home-chip-border: rgba(0, 0, 0, 0.12);
+  --home-chip-fg: #1f2040;
+  --home-pill-bg: #ffffff;
+  --home-pill-border: rgba(0, 0, 0, 0.1);
+  --home-pill-icon-bg: #f3f3f3;
+  --home-button-bg: #060606;
+  --home-button-fg: #ffffff;
+  font-family: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.92), transparent 34%),
+    linear-gradient(180deg, #f7f7f7 0%, #f1f1f1 100%);
+}
+
+.dark .home-theme {
+  --home-bg: #0d0d0d;
+  --home-fg: #f5f5f5;
+  --home-muted: #b8b8b8;
+  --home-card: #191919;
+  --home-nav-bg: rgba(18, 18, 18, 0.82);
+  --home-nav-border: rgba(255, 255, 255, 0.12);
+  --home-chip-bg: #151515;
+  --home-chip-border: rgba(255, 255, 255, 0.14);
+  --home-chip-fg: #f0f2ff;
+  --home-pill-bg: #121212;
+  --home-pill-border: rgba(255, 255, 255, 0.12);
+  --home-pill-icon-bg: #222222;
+  --home-button-bg: #121212;
+  --home-button-fg: #f5f5f5;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.04), transparent 34%),
+    linear-gradient(180deg, #131313 0%, #0b0b0b 100%);
+}
+
+.mety-orbit {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: min(46vw, 360px);
+  height: min(46vw, 360px);
+}
+
+.mety-orbit__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 34px rgba(0, 0, 0, 0.12));
+}
+
+.dark .mety-orbit__image {
+  filter: drop-shadow(0 22px 40px rgba(0, 0, 0, 0.4));
+}
+
+@media (max-width: 768px) {
+  .mety-orbit {
+    width: min(72vw, 320px);
+    height: min(72vw, 320px);
+  }
+}

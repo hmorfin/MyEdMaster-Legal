@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Tenant Rights",
+    "score": 4.4,
+    "source": "chat",
+    "detail": "Based on chat info from recent landlord-tenant conversations.",
+    "trend": "Strong practical recall in eviction and notice questions."
+  },
+  {
+    "title": "Contract Basics",
+    "score": 3.6,
+    "source": "course",
+    "detail": "Based on the course currently in progress.",
+    "trend": "Improving as lessons on offer, acceptance, and breach are completed."
+  },
+  {
+    "title": "Traffic Violations",
+    "score": 2.8,
+    "source": "chat",
+    "detail": "Based on chat info from ticket and citation threads.",
+    "trend": "Needs more confidence around deadlines and court responses."
+  },
+  {
+    "title": "Small Claims",
+    "score": 3.9,
+    "source": "course",
+    "detail": "Based on the course currently in progress.",
+    "trend": "Consistent performance on filing steps and evidence prep."
+  },
+  {
+    "title": "Consumer Protection",
+    "score": 4.1,
+    "source": "chat",
+    "detail": "Based on chat info from fraud and billing issue discussions.",
+    "trend": "Good issue spotting when facts are clearly documented."
+  },
+  {
+    "title": "Family Law Foundations",
+    "score": 3.2,
+    "source": "course",
+    "detail": "Based on the course currently in progress.",
+    "trend": "Solid basics, but terminology retention is still uneven."
+  }
+]

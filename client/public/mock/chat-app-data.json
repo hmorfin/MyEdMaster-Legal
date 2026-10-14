@@ -1,0 +1,30 @@
+{
+  "user": {
+    "id": "1902a-1203-asd-sdf",
+    "name": "Ayush",
+    "email": "ayush@apple.com",
+    "initials": "AY"
+  },
+  "chats": [
+    {
+      "id": "6995f080-ed8c-8327-8398-8e75ff72b8a4",
+      "title": "Rent Increase without notice",
+      "updatedAt": "2h"
+    },
+    {
+      "id": "6994fd48-7634-8326-b7c0-c142f42e69f0",
+      "title": "False red light ticket",
+      "updatedAt": "1d"
+    },
+    {
+      "id": "699403b1-5ad8-832e-9bcb-18bdb6d2ed7c",
+      "title": "Abandoned Contracter Project",
+      "updatedAt": "3d"
+    },
+    {
+      "id": "6956278c-ea48-8328-89d0-a3169d1a8ad5",
+      "title": "Employment contract doubts",
+      "updatedAt": "7d"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "TC001",
+    "description": "Traffic law - no prior experience - wants to understand options",
+    "expected": {
+      "legal_domain": "traffic_law",
+      "branch": "speeding_ticket",
+      "baseline_familiarity": "low",
+      "primary_intent": "understand_options"
+    },
+    "payload": {
+      "legal_situation": "I got a speeding ticket doing 80 in a 65 zone on I-35 in Austin",
+      "prior_experience": "No, I have never dealt with a traffic ticket before",
+      "desired_outcome": "I want to understand my options before deciding whether to pay or contest it",
+      "jurisdiction": "texas"
+    }
+  },
+  {
+    "id": "TC002",
+    "description": "Traffic law - has prior experience - wants to contest",
+    "expected": {
+      "legal_domain": "traffic_law",
+      "branch": "red_light_violation",
+      "baseline_familiarity": "medium",
+      "primary_intent": "contest"
+    },
+    "payload": {
+      "legal_situation": "I received a red light camera ticket in Phoenix with a fine of $300",
+      "prior_experience": "Yes, I contested a speeding ticket successfully two years ago",
+      "desired_outcome": "I want to contest this ticket and get it dismissed",
+      "jurisdiction": "arizona"
+    }
+  },
+  {
+    "id": "TC003",
+    "description": "Contract law - no prior experience - wants to review agreement",
+    "expected": {
+      "legal_domain": "contract_law",
+      "branch": "service_agreement",
+      "baseline_familiarity": "low",
+      "primary_intent": "review"
+    },
+    "payload": {
+      "legal_situation": "I want to understand this freelance service agreement before I sign it",
+      "prior_experience": "No, I have never reviewed a contract before",
+      "desired_outcome": "I want to understand what I am agreeing to and identify any risky clauses",
+      "jurisdiction": "california"
+    }
+  },
+  {
+    "id": "TC004",
+    "description": "Landlord tenant law - medium experience - wants to force repairs",
+    "expected": {
+      "legal_domain": "landlord_tenant_law",
+      "branch": "repairs_and_habitability",
+      "baseline_familiarity": "medium",
+      "primary_intent": "understand_options"
+    },
+    "payload": {
+      "legal_situation": "My landlord has not fixed a broken heater for three weeks despite multiple requests",
+      "prior_experience": "I have rented apartments before but never had a dispute with a landlord",
+      "desired_outcome": "I want to know what my rights are and what I can do to force repairs",
+      "jurisdiction": "new york"
+    }
+  },
+  {
+    "id": "TC005",
+    "description": "Employment law - no prior experience - unpaid wages",
+    "expected": {
+      "legal_domain": "employment_law",
+      "branch": "unpaid_wages",
+      "baseline_familiarity": "low",
+      "primary_intent": "understand_options"
+    },
+    "payload": {
+      "legal_situation": "I was laid off without any notice and my employer is refusing to pay my final paycheck",
+      "prior_experience": "No, I have never dealt with an employment dispute before",
+      "desired_outcome": "I want to understand my rights and how to get my final paycheck",
+      "jurisdiction": "florida"
+    }
+  },
+  {
+    "id": "TC006",
+    "description": "Consumer rights - some experience - refund dispute",
+    "expected": {
+      "legal_domain": "consumer_rights",
+      "branch": "defective_product",
+      "baseline_familiarity": "medium",
+      "primary_intent": "contest"
+    },
+    "payload": {
+      "legal_situation": "I purchased a laptop that stopped working after two weeks and the seller is refusing to refund me",
+      "prior_experience": "I once got a refund by filing a complaint with the BBB but nothing formal",
+      "desired_outcome": "I want to get a full refund or replacement",
+      "jurisdiction": "texas"
+    }
+  },
+  {
+    "id": "TC007",
+    "description": "Vague input - truly ambiguous - should fallback to general",
+    "expected": {
+      "legal_domain": "general",
+      "branch": "general",
+      "baseline_familiarity": "low",
+      "primary_intent": "understand_options"
+    },
+    "payload": {
+      "legal_situation": "I think I might have a legal issue but I am not sure what kind it is",
+      "prior_experience": "No experience with legal matters at all",
+      "desired_outcome": "I want to understand if I need a lawyer and what my next steps are",
+      "jurisdiction": "illinois"
+    }
+  },
+  {
+    "id": "TC008",
+    "description": "Criminal law - no experience - DUI arrest",
+    "expected": {
+      "legal_domain": "criminal_law",
+      "branch": "dui",
+      "baseline_familiarity": "low",
+      "primary_intent": "understand_options"
+    },
+    "payload": {
+      "legal_situation": "I was arrested for a DUI last night and I do not know what to do next",
+      "prior_experience": "I have never been arrested before",
+      "desired_outcome": "I want to understand my rights and what happens next",
+      "jurisdiction": "georgia"
+    }
+  }
+]

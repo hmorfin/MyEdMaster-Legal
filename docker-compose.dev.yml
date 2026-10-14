@@ -1,0 +1,16 @@
+services:
+  backend:
+    environment:
+      DJANGO_DEBUG: "true"
+    volumes:
+      - ./backend:/app
+
+  ai:
+    environment:
+      LOG_LEVEL: "debug"
+    volumes:
+      - ./ai:/app
+
+  frontend:
+    environment:
+      CHOKIDAR_USEPOLLING: "true"

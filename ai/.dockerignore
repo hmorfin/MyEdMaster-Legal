@@ -1,0 +1,12 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+*.log
+.env
+.cache/
+models/
+*.pt
+*.bin
+*.onnx
+venv/
